@@ -1,0 +1,53 @@
+body{
+    width: 700px;
+    margin: 0px auto;
+}
+/* Style for heading */
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+/* Style for form and input */
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+input[type="text"] {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border: none;
+    border-bottom: 2px solid #ccc;
+    margin-right: 1rem;
+}
+
+/* Style for button */
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Style for task list */
+#task-list {
+    list-style: none;
+    margin-top: 2rem;
+}
+
+#task-list li {
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-bottom: 2px solid #ccc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#task-list li:last-child {
+    border-bottom: none;
+}
